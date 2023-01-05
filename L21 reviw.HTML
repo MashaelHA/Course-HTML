@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review</title>
+</head>
+<body>
+    <form>
+    <table> 
+        <tr>
+            <td> 
+        <label>Name</label> <span style="color: red;">*</span>
+            </td>
+             <td>
+              <input type="text" placeholder="your name" name="full_name" />
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <label>gender</label><span style="color: red;">*</span>
+              </td>
+              <td>
+                <select name="gender" required>
+                    <option value="">choose one</option>
+                    <option value="Male">Male</option>
+                    <option value="Famel">Famle</option>
+                </select>
+              </td>
+          </tr>
+
+        <tr>
+            <td><label>your birth</label><span style="color: red;">*</span></td>
+            <td><input type="date" required /></td>
+        </tr>
+
+        <tr>
+            <td><label>Your Email</label><span style="color: red;">*</span></td>
+            <td><input type="email" required  placeholder="Enter your email"/></td>
+        </tr> 
+
+        <tr>
+           <td><label>password</label><span style="color: red;">*</span></td>
+           <td><input type="password" name="password" required placeholder="password without space"/></td>
+        </tr>
+          
+        <tr>
+            <td><label>login</label></td>
+            <td><button type="submit">login</button></td>
+        </tr>
+        <tr>
+            <td>
+            <a href="https://accounts.google.com/" target="_blank">sign up</a>
+        </td>
+        </tr>
+        
+    </table>
+    </form>
+</body>
+</html>
